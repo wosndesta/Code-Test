@@ -1,0 +1,119 @@
+
+@import 'variables.scss';
+
+/** Add styles here **/
+
+//product
+.ditail__container{
+    display: flex;
+	text-align: left;
+}
+.img__dis{
+width: 50%;
+
+
+}
+.product__ditail{
+	margin-left: 40px;
+	margin-right: 40px;
+
+
+}
+//ProductPurchase
+
+.quantity__container{
+	display: flex;
+}
+.quantity__number{
+	display: inline-flex;
+	border:1px solid ;
+	border-color: rgb(224, 224, 224);
+	margin-top: 10px;
+	margin-left: 20px;
+	opacity: 1;
+    width: 20%;
+    justify-content: center;
+	
+}
+.quantity__number img{
+	padding:10px 10px;
+
+
+}
+.num__one{
+    padding: 16px 16px;
+    border-left: 2px solid #e6e6e6;
+    border-right: 2px solid #e6e6e6;
+    text-align: center;
+}
+.purchase__arrow{
+    border:1px solid ;
+    display: inline-flex;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-top: 15px ;
+    padding-left: 15px;
+    border-color: #e6e6e6;
+	
+}
+.purchase__arrow img{
+	margin-top: -13px;
+	
+}
+.purchase__price{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+
+//productGride
+.home__row {
+    display: flex;
+   
+}
+.sub__head{
+	margin-left: 40px;
+}
+.product__info{
+    object-fit: contain;
+    margin-top: -50px;
+
+}
+ 
+  h1.pro__info, h4.pro__price{
+    margin-left:40px;
+    font-weight: 200;
+	font-size: 25px;
+}
+
+.product__info > button{
+    margin-left: 40px;
+    display: block;
+}
+
+.fig img{
+  max-height: 250px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom:40px;
+  padding: 90px 30px 90px 30px;
+  min-width: 200px;
+  background-color: rgba(245, 239, 234, 0.472);
+}
+
+
+
+//productdesc
+.productdis__list{
+	display: flex;
+	margin:0
+}
+.productdis__list p{
+margin-top: 22px;
+margin-left: 5px;
+
+}
+.product__disc figure{
+	margin:0
+}
+
